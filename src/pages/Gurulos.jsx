@@ -55,7 +55,7 @@ export default function Gurulos() {
             <p>{t("gurulos.heightText")}</p>
             <figure className="height-figure">
               <img
-                src="/assets/munkamagassag.svg"
+                src={import.meta.env.BASE_URL + "assets/munkamagassag.svg"}
                 alt="A munkamagasság szemléltetése: a munkaszint magassága plusz körülbelül 2 méter."
               />
             </figure>

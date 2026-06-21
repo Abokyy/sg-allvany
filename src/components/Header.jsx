@@ -16,7 +16,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link className="brand" to="/" aria-label="SG Állvány" onClick={close}>
-          <img src="/assets/logo.svg" alt="SG Állvány logó" />
+          <img src={import.meta.env.BASE_URL + "assets/logo.svg"} alt="SG Állvány logó" />
           <span>{t("brand.name")}</span>
         </Link>
 

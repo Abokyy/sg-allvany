@@ -147,7 +147,7 @@ export default function Admin() {
       <header className="site-header">
         <div className="container nav">
           <Link className="brand" to="/">
-            <img src="/assets/logo.svg" alt="SG Állvány" /> <span>{t("brand.name")}</span>
+            <img src={import.meta.env.BASE_URL + "assets/logo.svg"} alt="SG Állvány" /> <span>{t("brand.name")}</span>
           </Link>
           <Link className="btn btn--outline" to="/">Vissza az oldalra</Link>
         </div>

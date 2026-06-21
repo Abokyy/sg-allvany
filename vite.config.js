@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Saját domain (www.sgallvany.hu) a gyökérben fut, ezért base: "/".
-// Ha mégis a felhasznalo.github.io/sg-allvany/ alatt futna, írd át "/sg-allvany/"-re.
+// FONTOS: a base határozza meg, milyen útvonalon szolgáljuk ki az oldalt.
+//  - GitHub Pages teszteléshez (https://abokyy.github.io/sg-allvany/):  "/sg-allvany/"
+//  - Saját domain gyökerében (https://www.sgallvany.hu/):               "/"
+// Élesítéskor (amikor a domaint átállítod) csak ezt az egy sort kell "/"-re írni.
 export default defineConfig({
-  base: "/",
+  base: "/sg-allvany/",
   plugins: [react()],
   build: {
     outDir: "dist"

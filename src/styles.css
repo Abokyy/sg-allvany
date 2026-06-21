@@ -170,7 +170,7 @@ p { margin: 0 0 1em; }
   color: var(--white);
   background-image:
     linear-gradient(rgba(15,15,15,.78), rgba(15,15,15,.86)),
-    url("/assets/scaffold.svg");
+    url("./assets/scaffold.svg");
   background-size: cover;
   background-position: center;
 }

@@ -47,6 +47,7 @@ export const SITE_CONFIG = {
     pricesPath: "public/data/prices.json"   // a forrásfájl a repóban
   },
 
-  /* A böngészőben futásidőben innen töltjük az árakat. */
-  pricesUrl: "/data/prices.json"
+  /* A böngészőben futásidőben innen töltjük az árakat.
+     A BASE_URL miatt a megfelelő útvonalon (gyökér vagy /sg-allvany/) tölt. */
+  pricesUrl: import.meta.env.BASE_URL + "data/prices.json"
 };
