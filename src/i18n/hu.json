@@ -57,7 +57,12 @@
     "term3": "Kaució szükséges, amely sérülésmentes visszaadás esetén jár vissza",
     "term4": "A szállítást mi oldjuk meg",
     "term5": "Bérléshez személyi igazolvány és lakcímkártya szükséges",
-    "pricesTitle": "Árak"
+    "pricesTitle": "Árak",
+    "condTitle": "Bérlési feltételek – homlokzati állvány",
+    "cond1": "A homlokzati állvány minimum bérlési ideje 14 naptári nap. Rövidebb időtartamú bérlésre is van lehetőség, azonban ebben az esetben is a 14 napos bérleti díj kerül elszámolásra.",
+    "cond2": "Az állvány építésének és bontásának díja 1.900.-/m²-től indul, amely az állvány magasságától, a homlokzat kialakításától, valamint a talajviszonyoktól függ.",
+    "cond3": "Minden esetben helyszíni felmérés alapján készítjük el az árajánlatot. A kiszállás és felmérés egyszeri alkalommal ingyenes és kötelezettségmentes.",
+    "cond4": "A homlokzati állványok szállítását minden esetben mi végezzük. A ki- és elszállítás díja a távolság, valamint a bérlés időtartama és mennyisége alapján kerül meghatározásra."
   },
   "gurulos": {
     "title": "Gurulós állvány bérlés",

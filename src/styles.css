@@ -130,6 +130,7 @@ p { margin: 0 0 1em; }
 .nav__links a:hover { background: var(--bg-soft); }
 .nav__links a.active { color: var(--red); }
 .nav__cta { margin-left: 6px; }
+.nav__cta .btn { gap: 12px; }
 .nav__toggle {
   display: none;
   background: none;
@@ -169,15 +170,15 @@ p { margin: 0 0 1em; }
   color: var(--white);
   background-image:
     linear-gradient(rgba(15,15,15,.78), rgba(15,15,15,.86)),
-    url("../assets/scaffold.svg");
+    url("/assets/scaffold.svg");
   background-size: cover;
   background-position: center;
 }
-.hero__inner { padding: 64px 0; max-width: 760px; }
+.hero__inner { padding: 64px 18px; max-width: 760px; }
 .hero h1 { color: var(--white); font-size: 2.5rem; }
 .hero p { font-size: 1.2rem; color: #e9e9e9; margin-bottom: 28px; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 14px; }
-.hero--page .hero__inner { padding: 44px 0; }
+.hero--page .hero__inner { padding: 44px 18px; }
 .hero--page h1 { font-size: 2.1rem; }
 
 /* ---------------- Cards / grids ---------------- */
@@ -252,6 +253,30 @@ p { margin: 0 0 1em; }
   font-size: .85rem; font-weight: 800;
 }
 
+.checklist--center { max-width: 680px; margin: 0 auto; }
+
+/* ---------------- Bérlési feltételek (számozott) ---------------- */
+.cond-list { max-width: 840px; margin: 0 auto; list-style: none; padding: 0; }
+.cond-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.cond-item:last-child { border-bottom: none; }
+.cond-num {
+  flex: none;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.cond-item p { margin: 0; font-size: 1.08rem; }
+
 /* ---------------- Price table ---------------- */
 .price-block { max-width: 720px; margin: 0 auto; }
 .table-scroll { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -325,6 +350,18 @@ p { margin: 0 0 1em; }
   background: var(--bg-soft);
 }
 .doc-embed .btn { margin-top: 16px; }
+
+/* ---------------- Munkamagasság ábra ---------------- */
+.height-explainer { align-items: center; gap: 30px; }
+.height-explainer p { font-size: 1.12rem; }
+.height-figure { margin: 0; }
+.height-figure img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /* ---------------- Contact ---------------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
@@ -423,4 +460,56 @@ p { margin: 0 0 1em; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0,0,0,0); border: 0;
+}
+
+/* ---------------- Telefon (≤600px) finomítások ---------------- */
+@media (max-width: 600px) {
+  .container { padding: 0 16px; }
+
+  /* Hero: kisebb betűk és arányos térköz mobilon */
+  .hero__inner { padding: 40px 16px; }
+  .hero h1 { font-size: 1.85rem; }
+  .hero p { font-size: 1.05rem; margin-bottom: 22px; }
+  .hero--page .hero__inner { padding: 34px 16px; }
+  .hero__actions { gap: 10px; }
+  .hero__actions .btn { width: 100%; }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  .section { padding: 36px 0; }
+
+  /* Ártáblázat kártyás nézet – nincs vízszintes görgetés */
+  .table-scroll { overflow-x: visible; }
+  .price-table { border: 0; }
+  .price-table thead { display: none; }
+  .price-table,
+  .price-table tbody,
+  .price-table tr,
+  .price-table td { display: block; width: 100%; }
+  .price-table tr {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin-bottom: 12px;
+    background: var(--white);
+    overflow: hidden;
+  }
+  .price-table tbody tr:nth-child(even) { background: var(--white); }
+  .price-table td {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 14px;
+    text-align: right;
+    white-space: normal;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .price-table td:last-child { border-bottom: none; }
+  .price-table td::before {
+    content: attr(data-label);
+    flex: none;
+    font-weight: 700;
+    color: var(--muted);
+    text-align: left;
+  }
 }
