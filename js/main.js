@@ -168,6 +168,21 @@
     document.body.appendChild(fab);
   }
 
+  /* ---------- Fontos tudnivalók (kaució, igazolvány) ---------- */
+  function buildNotice() {
+    document.querySelectorAll("[data-component='notice']").forEach((mount) => {
+      mount.innerHTML = `
+        <div class="notice">
+          <div class="notice__icon" aria-hidden="true">!</div>
+          <div class="notice__body">
+            <h3 data-i18n="notice.title">Fontos tudnivalók a bérléshez</h3>
+            <p data-i18n="notice.id"></p>
+            <p data-i18n="notice.deposit"></p>
+          </div>
+        </div>`;
+    });
+  }
+
   /* ---------- Beágyazott Google Drive dokumentumok ---------- */
   function buildDriveEmbeds() {
     const docs = cfg.docs || {};
@@ -211,6 +226,7 @@
     buildContact();
     buildFooter();
     buildFab();
+    buildNotice();
     buildDriveEmbeds();
     // Az utólag beszúrt elemekre is alkalmazzuk a fordítást.
     if (window.applyI18n) window.applyI18n();

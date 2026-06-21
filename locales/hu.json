@@ -76,8 +76,15 @@
     "term4": "A szállítás megoldható",
     "term5": "Bérléshez személyi igazolvány és lakcímkártya szükséges",
     "pricesTitle": "Árlista",
+    "heightTitle": "Mit jelent a munkamagasság?",
+    "heightText": "A munkamagasság az a magasság, ameddig az állványon állva kényelmesen és biztonságosan dolgozni tud. Ez nem az állvány magassága: az átlagos kartávolság miatt nagyjából a felső munkaszint magassága + 2 méter. Például egy 1 méteres munkaszintről kb. 3 méteres munkamagasságban lehet dolgozni. Az árlistában szereplő méretek erre a munkamagasságra vonatkoznak.",
     "docTitle": "Tartozéklista és méretek",
     "docText": "Tekintse meg a tartozékok listáját és a pontos méreteket."
+  },
+  "notice": {
+    "title": "Fontos tudnivalók a bérléshez",
+    "id": "A bérléshez személyi igazolvány és lakcímkártya szükséges.",
+    "deposit": "Az állványbérléshez kaució szükséges, ami állványonként 150 000 Ft. A kaució – problémamentes bérlés esetén – teljes mértékben visszajár."
   },
   "contact": {
     "title": "Kapcsolat",
