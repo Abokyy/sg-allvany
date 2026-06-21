@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "langName": "Magyar"
+  },
+  "brand": {
+    "name": "SG Állvány",
+    "tagline": "Gurulós és homlokzati állványok bérbeadása Gödöllőn és környékén"
+  },
+  "nav": {
+    "home": "Főoldal",
+    "homlokzati": "Homlokzati állvány",
+    "gurulos": "Gurulós állvány",
+    "contact": "Kapcsolat",
+    "menu": "Menü"
+  },
+  "cta": {
+    "call": "Hívjon most",
+    "quote": "Ajánlatot kérek",
+    "email": "Írok e-mailt",
+    "more": "Részletek",
+    "viewPrices": "Árak megtekintése",
+    "chat": "Írjon nekünk chaten"
+  },
+  "home": {
+    "heroTitle": "Állványbérlés gyorsan, biztonságosan",
+    "heroSubtitle": "Gurulós és homlokzati állványok bérbeadása magánszemélyeknek és kivitelezőknek Gödöllőn és környékén. Szállítással, fel- és leszereléssel.",
+    "introTitle": "Miben segítünk?",
+    "introText": "Családi háztól a társasházig, ipari csarnoktól a belső felújításig minden munkához van megfelelő állványunk. Festéshez, vakoláshoz, tetőjavításhoz, homlokzati szigeteléshez – stabil, európai szabványnak megfelelő rendszerekkel dolgozunk.",
+    "productsTitle": "Állvány típusok",
+    "homlokzatiCardText": "Keretes homlokzati állvány nagyobb felületű építkezésekhez és felújításokhoz. Gyors szerelés, stabil rendszer.",
+    "gurulosCardText": "Mozgatható gurulós állvány beltéri és kisebb külső munkákhoz. Könnyű, gyorsan áthelyezhető, egyszerűen használható.",
+    "whyTitle": "Miért minket válasszon?",
+    "why1Title": "Biztonságos",
+    "why1Text": "Stabil, európai szabványnak megfelelő rendszerek, érvényes biztonsági tanúsítvánnyal.",
+    "why2Title": "Gyors",
+    "why2Text": "Rövid határidő, gyors fel- és leszerelés, hogy Ön időben haladhasson a munkával.",
+    "why3Title": "Rugalmas",
+    "why3Text": "Igényhez igazodó bérlési idő és feltételek, magánszemélyeknek és cégeknek egyaránt.",
+    "why4Title": "Szakértelem",
+    "why4Text": "Ingyenes helyszíni felmérés és tanácsadás, hogy a megfelelő megoldást kapja.",
+    "ctaBannerTitle": "Állványra van szüksége?",
+    "ctaBannerText": "Kérjen ingyenes, kötelezettség nélküli ajánlatot még ma."
+  },
+  "homlokzati": {
+    "title": "Homlokzati állvány bérlés",
+    "subtitle": "Keretes homlokzati állványrendszerek építkezéshez és felújításhoz",
+    "introTitle": "Ideális választás nagyobb felületekhez",
+    "introText": "A homlokzati állvány a legtöbb építkezésen és felújításon ideális választás, ahol nagyobb felületen kell dolgozni. RAM1-es keretes rendszerekkel (Plettac / Terra) dolgozunk, amelyek gyors szerelést, stabilitást, valamint idő- és költségmegtakarítást biztosítanak.",
+    "featuresTitle": "Előnyök",
+    "feature1": "Gyors fel- és leszerelés",
+    "feature2": "Stabil, teherbíró rendszer",
+    "feature3": "Megfelel az európai szabványoknak",
+    "feature4": "Érvényes biztonsági tanúsítvány",
+    "termsTitle": "Bérlési feltételek",
+    "term1": "Minimális bérlési idő: 14 naptári nap",
+    "term2": "Az első helyszíni felmérés ingyenes és kötelezettség nélküli",
+    "term3": "Kaució szükséges, amely sérülésmentes visszaadás esetén jár vissza",
+    "term4": "A szállítást mi oldjuk meg",
+    "term5": "Bérléshez személyi igazolvány és lakcímkártya szükséges",
+    "pricesTitle": "Árak"
+  },
+  "gurulos": {
+    "title": "Gurulós állvány bérlés",
+    "subtitle": "Mozgatható állvány beltéri és kisebb külső munkákhoz",
+    "introTitle": "Könnyű, mozgatható megoldás",
+    "introText": "A gurulós (mobil) állvány kerekeken gördül, így gyorsan áthelyezhető a munkaterületen belül. Ideális beltéri felújításhoz, festéshez, villany- és gipszkartonozási munkákhoz, valamint kisebb külső feladatokhoz. Könnyen kezelhető, egy ember is gyorsan átállíthatja.",
+    "featuresTitle": "Előnyök",
+    "feature1": "Kerekeken könnyen mozgatható",
+    "feature2": "Gyorsan összeállítható és bontható",
+    "feature3": "Beltéri és kültéri használatra is",
+    "feature4": "Stabil, fékezhető kerekekkel",
+    "termsTitle": "Bérlési feltételek",
+    "term1": "Rugalmas bérlési idő, megegyezés szerint",
+    "term2": "Az első helyszíni felmérés ingyenes és kötelezettség nélküli",
+    "term3": "Kaució szükséges, amely sérülésmentes visszaadás esetén jár vissza",
+    "term4": "A szállítás megoldható",
+    "term5": "Bérléshez személyi igazolvány és lakcímkártya szükséges",
+    "pricesTitle": "Árlista",
+    "docTitle": "Tartozéklista és méretek",
+    "docText": "Tekintse meg a tartozékok listáját és a pontos méreteket."
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Hívjon minket vagy kérjen ajánlatot – szívesen segítünk.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "addressLabel": "Cím",
+    "hoursLabel": "Nyitvatartás",
+    "mapTitle": "Térkép"
+  },
+  "prices": {
+    "service": "Szolgáltatás",
+    "price": "Ár",
+    "updated": "Frissítve",
+    "loadError": "Az árakat most nem sikerült betölteni. Kérjük, hívjon minket telefonon.",
+    "quoteNote": "A pontos árért kérjen egyedi ajánlatot – minden munka más."
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva.",
+    "madeWith": "Állványbérlés Gödöllőn és környékén"
+  },
+  "admin": {
+    "title": "Ár szerkesztő",
+    "intro": "Itt módosíthatja az árlistát. A mentés egy GitHub hozzáférési tokent igényel.",
+    "tokenLabel": "GitHub hozzáférési token",
+    "tokenHelp": "Fine-grained token a repóhoz, Contents: Read and write jogosultsággal.",
+    "load": "Árak betöltése",
+    "save": "Mentés és közzététel",
+    "addRow": "+ Új sor",
+    "remove": "Törlés",
+    "saved": "Elmentve! A weboldal pár percen belül frissül.",
+    "loadFirst": "Először töltse be az árakat.",
+    "noteLabel": "Megjegyzés",
+    "titleLabel": "Cím"
+  }
+}

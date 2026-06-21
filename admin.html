@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Ár szerkesztő – SG Állvány</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./"><img src="assets/logo.svg" alt="SG Állvány" /> <span>SG Állvány</span></a>
+      <a class="btn btn--outline" href="./">Vissza az oldalra</a>
+    </div>
+  </header>
+
+  <div class="admin-wrap">
+    <h1 data-i18n="admin.title">Ár szerkesztő</h1>
+    <p data-i18n="admin.intro">Itt módosíthatja az árlistát. A mentés egy GitHub hozzáférési tokent igényel.</p>
+
+    <!-- 1. lépés: belépés / kapcsolat -->
+    <div class="admin-card">
+      <div class="field">
+        <label for="gh-owner">GitHub felhasználó / szervezet</label>
+        <input id="gh-owner" type="text" autocomplete="off" placeholder="pl. varsanyi-botond" />
+      </div>
+      <div class="field">
+        <label for="gh-repo">Repository neve</label>
+        <input id="gh-repo" type="text" autocomplete="off" placeholder="pl. sg-allvany" />
+      </div>
+      <div class="field">
+        <label for="gh-token" data-i18n="admin.tokenLabel">GitHub hozzáférési token</label>
+        <input id="gh-token" type="password" autocomplete="off" placeholder="github_pat_..." />
+        <div class="help" data-i18n="admin.tokenHelp">Fine-grained token a repóhoz, Contents: Read and write jogosultsággal.</div>
+      </div>
+      <button class="btn btn--dark" id="btn-load" data-i18n="admin.load">Árak betöltése</button>
+    </div>
+
+    <div class="admin-status" id="status"></div>
+
+    <!-- 2. lépés: szerkesztő (betöltés után jelenik meg) -->
+    <form id="editor" style="display:none">
+      <div id="editor-body"></div>
+      <button class="btn btn--primary btn--block" id="btn-save" type="submit" data-i18n="admin.save">Mentés és közzététel</button>
+    </form>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

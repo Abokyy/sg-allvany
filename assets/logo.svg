@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="SG Állvány">
+  <rect width="120" height="120" rx="18" fill="#141414"/>
+  <rect x="8" y="8" width="104" height="104" rx="12" fill="none" stroke="#e10600" stroke-width="5"/>
+  <!-- scaffold bars -->
+  <g stroke="#e10600" stroke-width="4" opacity="0.35">
+    <line x1="30" y1="14" x2="30" y2="106"/>
+    <line x1="90" y1="14" x2="90" y2="106"/>
+    <line x1="14" y1="44" x2="106" y2="44"/>
+    <line x1="14" y1="76" x2="106" y2="76"/>
+  </g>
+  <text x="60" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff">SG</text>
+</svg>

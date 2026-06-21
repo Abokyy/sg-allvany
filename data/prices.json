@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "currency": "Ft",
+    "updated": "2026-06-13"
+  },
+  "categories": {
+    "homlokzati": {
+      "title": "Homlokzati állvány",
+      "columns": ["Szolgáltatás", "Ár"],
+      "rows": [
+        ["Fel- és leszerelés", "1 900 Ft / m²-től"],
+        ["Bérleti díj", "Egyedi ajánlat alapján"],
+        ["Minimális bérlési idő", "14 naptári nap"],
+        ["Kaució", "150 000 Ft-tól"],
+        ["Helyszíni felmérés", "Ingyenes"],
+        ["Szállítás", "Megoldjuk"]
+      ],
+      "note": "Az ár függ a magasságtól, a homlokzat kialakításától és a talajviszonyoktól."
+    },
+    "gurulos": {
+      "title": "Gurulós állvány árlista",
+      "columns": ["Munkamagasság", "1–7 napig", "8. naptól"],
+      "rows": [
+        ["3 m", "6 000 Ft/nap", "5 500 Ft/nap"],
+        ["4,4 m", "6 500 Ft/nap", "6 000 Ft/nap"],
+        ["5,4 m", "7 000 Ft/nap", "6 500 Ft/nap"],
+        ["6,4 m", "7 500 Ft/nap", "7 000 Ft/nap"],
+        ["7,4 m", "8 000 Ft/nap", "7 500 Ft/nap"],
+        ["8,4 m", "9 000 Ft/nap", "8 500 Ft/nap"],
+        ["9,4 m", "10 000 Ft/nap", "9 500 Ft/nap"],
+        ["10,4 m", "11 000 Ft/nap", "10 500 Ft/nap"],
+        ["11,4 m", "12 000 Ft/nap", "11 500 Ft/nap"],
+        ["12,4 m", "13 000 Ft/nap", "12 500 Ft/nap"],
+        ["13,4 m", "14 000 Ft/nap", "13 500 Ft/nap"],
+        ["14,4 m", "15 000 Ft/nap", "14 500 Ft/nap"]
+      ],
+      "note": "A megadott árak tájékoztató jellegűek. A szállításról és a kaucióról érdeklődjön telefonon."
+    }
+  }
+}
